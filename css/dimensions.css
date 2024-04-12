@@ -1,0 +1,17 @@
+:root {
+  --spacing-base: 1rem;
+  --spacing-smallest: calc(2 / 16 * var(--spacing-base));
+  --spacing-smaller: calc(var(--spacing-base) / 3);
+  --spacing-small: calc(var(--spacing-base) / 2);
+  --spacing-medium: var(--spacing-base);
+  --spacing-large: calc(var(--spacing-base) * 2);
+  --spacing-larger: calc(var(--spacing-base) * 3);
+  --spacing-largest: calc(var(--spacing-base) * 4);
+
+  --border-width: calc(1/16 * 1rem);
+  --border-solid: solid;
+  --border-dashed: dashed;
+  --border-dotted: dotted;
+
+  --header-height: calc(120 / 16 * var(--spacing-base));
+}

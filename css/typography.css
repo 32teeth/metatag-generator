@@ -1,0 +1,46 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --font-size: 1rem;
+  --font-size-smallest: calc(var(--font-size) / 1.5);
+  --font-size-smaller: calc(var(--font-size) / 1.25);
+  --font-size-small: calc(var(--font-size) / 1.125);
+  --font-size-medium: var(--font-size);
+  --font-size-large: calc(var(--font-size) * 1.125);
+  --font-size-larger: calc(var(--font-size) * 1.25);
+  --font-size-largest: calc(var(--font-size) * 1.5);
+  --line-height: 1.5;
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  --font-weight-bolder: 700;
+  --font-weight-black: 900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: var(--font-weight-light);
+  color: var(--color-purple-600);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: var(--spacing-medium);
+}
+
+h3 {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-light);
+}
+
+strong {
+  font-weight: var(--font-weight-medium);
+}
+
+ul strong {
+  font-weight: var(--font-weight-black);
+  text-transform: uppercase;
+  font-style: italic;
+}

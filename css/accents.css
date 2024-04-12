@@ -1,0 +1,17 @@
+:root {
+  --color-accent: var(--color-purple-100);
+  accent-color: var(--color-accent);
+}
+
+:focus-visible { outline-color: var(--color-accent); }
+::selection { background-color: var(--color-accent); }
+::marker { color: var(--color-accent); }
+
+:is(
+  ::-webkit-calendar-picker-indicator,
+  ::-webkit-clear-button,
+  ::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button
+) {
+  color: var(--color-accent);
+}

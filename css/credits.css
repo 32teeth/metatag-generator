@@ -1,0 +1,45 @@
+credits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white-900);
+}
+
+credits h1, credits h2 {
+  font-size: var(--font-size-large);
+  margin: var(--spacing-small);
+}
+
+credits a {
+  text-decoration: none;
+}
+
+credits h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--spacing-medium);
+  border: solid var(--spacing-smallest) var(--color-pink-400);
+  border-radius: var(--spacing-largest);
+  font-size: var(--font-size-medium);
+  font-weight: 400;
+  width: 100px;
+  padding-inline: var(--spacing-medium);
+  padding-block: var(--spacing-small);
+  color: var(--color-white-200);
+  overflow: hidden;
+  background: var(--color-pink-100);
+}
+
+credits svg {
+  fill: var(--color-white-200)
+}
+
+credits h2 {
+  font-size: var(--font-size-medium);
+  color: var(--color-black-400);
+}
+
+heart {
+  color: var(--color-pink-900)
+}
